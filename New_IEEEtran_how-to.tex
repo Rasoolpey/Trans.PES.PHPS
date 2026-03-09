@@ -1,0 +1,58 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage[style=ieee,backend=bibtex,citestyle=numeric-comp]{biblatex}
+\renewcommand*{\bibfont}{\footnotesize}
+\addbibresource{references.bib}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{orcidlink}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{balance}
+\begin{document}
+\title{How to Use the IEEEtran \LaTeX \ Templates}
+\author{Rasool Peykarporsan \orcidlink{0009-0006-5237-3847} \textit{Member, IEEE}, Tek Tjing Lie \orcidlink{0000-0002-1091-2121} \textit{Senior Member, IEEE}, Martin Stommel \orcidlink{0000-0002-7297-0351} \textit{Member, IEEE}, Jeremy D. Watson \orcidlink{0000-0002-6326-8309} \textit{Senior Member, IEEE} % <-this % stops a space
+	\thanks{Rasool Peykarporsan and Tek Tjing Lie and Martin Stommel are with the School of Engineering, Computer and Mathematical Sciences, Auckland University of Technology, Auckland 1010, New Zealand (e-mail= rasool.peykarporsan@autuni.ac.nz, tek.lie@aut.ac.nz, mstommel@aut.ac.nz).}
+	\thanks{Jeremy D. Watson is with the Department of Electrical and Computer Engineering, University of Canterbury, Christchurch 8140, New Zealand (e-mail= jeremy.watson@canterbury.ac.nz).}
+	\thanks{The authors acknowledge with gratitude the support from the MBIE Contract UOCX2007: Architecture of the Future Low-Carbon, Resilient, Electrical Power System.}
+	}
+	
+
+
+
+%\author{IEEE Publication Technology Department
+%\thanks{Manuscript created October, 2020; This work was developed by the IEEE Publication Technology Department. This work is distributed under the \LaTeX \ Project Public License (LPPL) ( http://www.latex-project.org/ ) version 1.3. A copy of the LPPL, version 1.3, is included in the base \LaTeX \ documentation of all distributions of \LaTeX \ released 2003/12/01 or later. The opinions expressed here are entirely that of the author. No warranty is expressed or implied. User assumes all risk.}}
+
+\markboth{Journal of \LaTeX\ Class Files,~Vol.~18, No.~9, September~2020}%
+{How to Use the IEEEtran \LaTeX \ Templates}
+
+\maketitle
+
+\begin{abstract}
+This document describes the most common article elements and how to use the IEEEtran class with \LaTeX \ to produce files that are suitable for submission to the Institute of Electrical and Electronics Engineers (IEEE).  IEEEtran can produce conference, journal and technical note (correspondence) papers with a suitable choice of class options.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Class, IEEEtran, \LaTeX, paper, style, template, typesetting.
+\end{IEEEkeywords}
+
+
+\section{Introduction}
+%\IEEEPARstart{M}{odern} power system is increasingly spaning accross different physical domains, electrical, mechanical, thermal, wind, solar and so on. This requires high fidelity modeling that capture cross-domain energy exchange \cite{van2020port}.
+\IEEEPARstart{T}{he} rapid integration of converter-interfaced renewable generation, battery storage, and flexible loads in power systems has created networks where fast power-electronic switching dynamics tightly couple with slower electromechanical transients \cite{10273433}. Moreover, power system is increasingly spaning accross different physical domains, electrical, mechanical, thermal, wind, solar and so on. This requires high fidelity modeling that capture cross-domain energy exchange \cite{van2020port}.
+
+has progressively reduced system inertia and introduced new, faster stability phenomena — including converter-driven instability and electric resonance stability — that existing classification frameworks are still being extended to address [A]. Simultaneously, the tight coupling between switching-scale IBR dynamics and slower electromechanical transients demands simulation tools capable of spanning multiple timescales while rigorously enforcing network-level power balance [B], [C]. A central challenge in both settings is therefore ensuring that the simulation preserves fundamental physical invariants — energy conservation, passivity, and power balance — that govern stability and performance in the real system.
+
+\printbibliography
+
+
+\end{document}
+
+
